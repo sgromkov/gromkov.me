@@ -20,6 +20,10 @@
                 {{ layoutContent | safe }}
                 {% include "components/footer.njk" %}
             </main>
+            {% set js %}
+                {% include "assets/js/inline.js" %}
+            {% endset %}
+            <script defer>{{ js | jsmin | safe }}</script>
         </div>
     </body>
 </html>
