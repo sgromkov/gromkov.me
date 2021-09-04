@@ -1,15 +1,4 @@
-if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-        if (!user) {
-            window.netlifyIdentity.on("login", () => {
-                document.location.href = "/admin/";
-            });
-        }
-    });
-}
-
 document.addEventListener("DOMContentLoaded", function () {
-
     const el = document.getElementById("main");
     el.addEventListener("click", closeNavigation, false)
 
@@ -19,11 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
         document.body.classList.remove("dark");
     }
 });
-
-function logout() {
-    localStorage.removeItem("passphrase")
-    window.location.href = "/";
-}
 
 function showNavigation() {
     const navigation = document.getElementById("navigation");
@@ -45,21 +29,4 @@ function activateDarkMode() {
         localStorage.setItem('darkmode', 'true')
         document.body.classList.add("dark");
     }
-}
-
-function toggleLayout(state) {
-    if (localStorage.getItem('layout') === "horizontal") {
-        localStorage.setItem('layout', 'vertical')
-    } else if (localStorage.getItem('layout') === "vertical") {
-        localStorage.setItem('layout', "horizontal")
-    } else if (!localStorage.getItem('layout')) {
-        if (state === "horizontal") {
-            localStorage.setItem('layout', 'vertical')
-        } else {
-            localStorage.setItem('layout', 'horizontal')
-        }
-    }
-
-
-    console.log(localStorage.getItem('layout'))
 }
