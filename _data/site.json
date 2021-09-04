@@ -13,7 +13,6 @@
   "enableEditButton": false,
   "enableDatestamp": true,
   "enableGithubLink": true,
-  "enableContact": false,
   "enableComments": false,
   "enableEncryption": false,
   "enablePageNavigation": true
