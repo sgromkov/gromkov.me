@@ -11,6 +11,5 @@
   "enableDatestamp": true,
   "enableGithubLink": true,
   "enableComments": false,
-  "enableEncryption": false,
   "enablePageNavigation": true
 }
