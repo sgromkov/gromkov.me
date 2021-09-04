@@ -11,5 +11,5 @@
     "enableDatestamp": true,
     "enableGithubLink": true,
     "enableComments": false,
-    "enablePageNavigation": true
+    "enablePageNavigation": false
 }
