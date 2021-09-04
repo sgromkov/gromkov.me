@@ -6,7 +6,6 @@
   "url": "https://spacebook.app",
   "githubUrl": "https://github.com/sgromkov/sgromkov.github.io",
   "githubBranch": "main",
-  "navigationStyle": "vertical",
   "emoji": "💥",
   "enableDarkMode": true,
   "enableEditButton": false,
