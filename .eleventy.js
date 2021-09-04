@@ -8,6 +8,7 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 const pluginTOC = require('eleventy-plugin-nesting-toc');
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
+
 module.exports = function(eleventyConfig) {
   // eleventyConfig.addPlugin(pluginTOC);
   eleventyConfig.addPlugin(svgContents);
@@ -51,20 +52,9 @@ module.exports = function(eleventyConfig) {
     return '<img class="icon" src="'+url+'" alt="'+title+'" />';
   });
 
-  // Button shortcode -- experimental
-  // eleventyConfig.addLiquidShortcode("button", function(title,url) {
-  //   return '<a class="button" href="'+url+'">'+title+'</a>';
-  // });
-
-
   // Tailwind pass through and watch target
   eleventyConfig.addWatchTarget("./_tmp/style.css");
   eleventyConfig.addPassthroughCopy({ "./_tmp/style.css": "./style.css" });
-
-  // Alpine.js pass through
-  eleventyConfig.addPassthroughCopy({
-    "./node_modules/alpinejs/dist/alpine.js": "./js/alpine.js",
-  });
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
@@ -79,43 +69,10 @@ module.exports = function(eleventyConfig) {
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
 
-  // Add support for maintenance-free post authors
-  // Adds an authors collection using the author key in our post frontmatter
-  // Thanks to @pdehaan: https://github.com/pdehaan
-  // eleventyConfig.addCollection("authors", collection => {
-  //   const blogs = collection.getFilteredByGlob("posts/*.md");
-  //   return blogs.reduce((coll, post) => {
-  //     const author = post.data.author;
-  //     if (!author) {
-  //       return coll;
-  //     }
-  //     if (!coll.hasOwnProperty(author)) {
-  //       coll[author] = [];
-  //     }
-  //     coll[author].push(post.data);
-  //     return coll;
-  //   }, {});
-  // });
-
    // Creates custom collection "pages"
    eleventyConfig.addCollection("pages", function(collection) {
     return collection.getFilteredByGlob("pages/*.md");
    });
-
-   // Creates custom collection "posts"
-  //  eleventyConfig.addCollection("posts", function(collection) {
-  //   const coll = collection.getFilteredByGlob("posts/*.md");
-
-  //   for(let i = 0; i < coll.length ; i++) {
-  //     const prevPost = coll[i-1];
-  //     const nextPost = coll[i + 1];
-
-  //     coll[i].data["prevPost"] = prevPost;
-  //     coll[i].data["nextPost"] = nextPost;
-  //   }
-
-  //   return coll;
-  // });
 
    // Creates custom collection "menuItems"
    eleventyConfig.addCollection("menuItems", collection =>
@@ -172,9 +129,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("images/")
   eleventyConfig.addPassthroughCopy("content/images/")
-  eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
-  eleventyConfig.addPassthroughCopy("_includes/experimental/");
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
