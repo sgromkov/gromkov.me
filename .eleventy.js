@@ -146,7 +146,8 @@ module.exports = function(eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true,
-    typographer: true
+    typographer: true,
+
   };
   let opts = {
     // permalink: true,

@@ -592,8 +592,6 @@ select {
           color-adjust: exact;
 }
 
-/* Set up some default image behavior for nicer images */
-
 img {
   width: auto !important;
   border-width: 2px !important;
@@ -607,8 +605,6 @@ img:hover {
   --tw-border-opacity: 1;
   border-color: rgba(243, 244, 246, var(--tw-border-opacity))
 }
-
-/* Overrides for Tailwind Typography prose class */
 
 .dark .prose a {
   --tw-text-opacity: 1;
@@ -629,15 +625,25 @@ img:hover {
   scroll-margin-top: 3.5em;
 }
 
+.prose code {
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgba(229, 231, 235, var(--tw-bg-opacity));
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem
+}
+
+.prose code::after, .prose code::before {
+  display: none
+}
+
 .prose pre code {
   overflow-x: auto !important
 }
-
-.prose .footer-nav a {
-  text-decoration: none !important
-}
-
-/* Define blockquotes and some standard callout blocks */
 
 blockquote {
   border-radius: 0.5rem;
@@ -708,11 +714,6 @@ nav ul li a:hover {
 
 nav ul li a.active {
   font-weight: 600;
-}
-
-.dark .prose .footer-nav a:hover {
-  --tw-text-opacity: 1 !important;
-  color: rgba(156, 163, 175, var(--tw-text-opacity)) !important;
 }
 
 /* Utilities and misc */
@@ -1079,11 +1080,6 @@ nav ul li a.active {
   margin-bottom: 0;
 }
 
-.prose ul.footer-nav ::before {
-  display: none;
-  text-decoration: none;
-}
-
 .fixed {
   position: fixed !important;
 }
@@ -1145,10 +1141,6 @@ nav ul li a.active {
   margin-top: 1rem !important;
 }
 
-.mt-8 {
-  margin-top: 2rem !important;
-}
-
 .mt-12 {
   margin-top: 3rem !important;
 }
@@ -1181,18 +1173,6 @@ nav ul li a.active {
   margin-bottom: 1rem !important;
 }
 
-.mb-8 {
-  margin-bottom: 2rem !important;
-}
-
-.ml-0 {
-  margin-left: 0px !important;
-}
-
-.ml-1 {
-  margin-left: 0.25rem !important;
-}
-
 .ml-2 {
   margin-left: 0.5rem !important;
 }
@@ -1203,10 +1183,6 @@ nav ul li a.active {
 
 .inline-block {
   display: inline-block !important;
-}
-
-.inline {
-  display: inline !important;
 }
 
 .flex {
@@ -1261,27 +1237,8 @@ nav ul li a.active {
   flex: none !important;
 }
 
-.flex-shrink-0 {
-  flex-shrink: 0 !important;
-}
-
 .flex-grow {
   flex-grow: 1 !important;
-}
-
-.transform {
-  --tw-translate-x: 0 !important;
-  --tw-translate-y: 0 !important;
-  --tw-rotate: 0 !important;
-  --tw-skew-x: 0 !important;
-  --tw-skew-y: 0 !important;
-  --tw-scale-x: 1 !important;
-  --tw-scale-y: 1 !important;
-  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
-}
-
-.rotate-180 {
-  --tw-rotate: 180deg !important;
 }
 
 @-webkit-keyframes spin {
@@ -1354,20 +1311,8 @@ nav ul li a.active {
   cursor: pointer !important;
 }
 
-.list-none {
-  list-style-type: none !important;
-}
-
-.flex-row-reverse {
-  flex-direction: row-reverse !important;
-}
-
 .flex-col {
   flex-direction: column !important;
-}
-
-.flex-wrap {
-  flex-wrap: wrap !important;
 }
 
 .items-center {
@@ -1528,10 +1473,6 @@ nav ul li a.active {
   padding-bottom: 0.25rem !important;
 }
 
-.pl-0 {
-  padding-left: 0px !important;
-}
-
 .pl-3 {
   padding-left: 0.75rem !important;
 }
@@ -1595,11 +1536,6 @@ nav ul li a.active {
 .hover\:text-gray-800:hover {
   --tw-text-opacity: 1 !important;
   color: rgba(31, 41, 55, var(--tw-text-opacity)) !important;
-}
-
-.hover\:text-gray-900:hover {
-  --tw-text-opacity: 1 !important;
-  color: rgba(17, 24, 39, var(--tw-text-opacity)) !important;
 }
 
 .hover\:text-yellow-400:hover {
