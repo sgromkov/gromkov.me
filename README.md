@@ -1,74 +1,33 @@
-# Spacebook
+# Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/68791233-b2d6-4a86-8c42-e654e112a157/deploy-status)](https://app.netlify.com/sites/spacebook-app/deploys)
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-Create your own spacebook and customize it to your needs. Spacebooks are speedy to set up, free, and 100% open source. Spacebooks are modern notebooks you can use to create documentation, sketch out new ideas, build a simple website, or whatever suits your fancy. 
-
----
-
-<p align="center">
-<strong><big>Demo and documentation:</big></strong><br /> 
-</p>
-
-<p align="center">
-<strong>https://spacebook.app</strong> <br />
-</>
-
-<p align="center">
-🙋 💥 👩🏽‍🚀 🚀 👨‍🚀 🛰️
-</p>
-
----
-
-## Contributing
-
-If you want to contribute or make fixes to spacebook, it is best to fork this repository directly and submit pull requests against it. If you spot a typo on the demo/documentation site, you can also open a fork directly from the edit button on the top of each page.
-
-## Install spacebook
-
-If you want to quickly install for local testing follow the instructions below:
-
-### Requirements
-
-You must be running **Node version 12 or higher** due to the Tailwind 2.0 release. I recommend using NVM to easily manage your Node versions if you need to switch back and forth between older versions.
-
-- [Node](https://nodejs.org/)
-- [NVM](https://github.com/nvm-sh/nvm) (optional)
-
-**To find your current node version:**
+### Installation
 
 ```
-node --version
+$ yarn
 ```
 
-### Step one
+### Local Development
 
 ```
-git clone https://github.com/broeker/spacebook
+$ yarn start
 ```
 
-### Step two
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-Install the site and run an initial build command:
-
-```
-cd spacebook
-
-npm install
-
-npm run build (only necessary the first time!)
-```
-
-_If you get errors here, double check your node version!_
-
-### Step three
-
-Now spin up your local server to see your site!
+### Build
 
 ```
-npm run start
+$ yarn build
 ```
 
-This command will start a local server and you'll be able to work on your site with hot reloads and some nice Browsersync features. 💥
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
---- 
+### Deployment
+
+```
+$ GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

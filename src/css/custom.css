@@ -1,0 +1,65 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+    --ifm-color-primary: #0060a0;
+    --ifm-color-primary-dark: #005690;
+    --ifm-color-primary-darker: #005288;
+    --ifm-color-primary-darkest: #004370;
+    --ifm-color-primary-light: #006ab0;
+    --ifm-color-primary-lighter: #006eb8;
+    --ifm-color-primary-lightest: #007dd0;
+
+    --ifm-code-font-size: 95%;
+    --ifm-color-info: #1eb1fc;
+    --ifm-color-success: #1eb1fc;
+    --ifm-color-warning: #c94b4b;
+    --ifm-font-family-base: -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+html[data-theme="dark"]:root {
+    --ifm-color-primary: #8b9dff;
+    --ifm-color-primary-dark: #647cff;
+    --ifm-color-primary-darker: #506bff;
+    --ifm-color-primary-darkest: #1539ff;
+    --ifm-color-primary-light: #b2beff;
+    --ifm-color-primary-lighter: #c6cfff;
+    --ifm-color-primary-lightest: #ffffff;
+}
+
+
+.docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.video {
+    margin-bottom: 1em;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video iframe,
+.video object,
+.video embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
