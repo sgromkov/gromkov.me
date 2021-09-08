@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Sergey Gromkov Blog</title>
+        <link>https://sgromkov.github.io/gromkov.me/blog</link>
+        <description>Sergey Gromkov Blog</description>
+        <lastBuildDate>Tue, 31 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Что я хотела бы знать о Докере до того, как начала его использовать]]></title>
+            <link>https://sgromkov.github.io/gromkov.me/blog/2021/08/31/things-i-wish-i-knew-about-docker-before-i-started-using-it</link>
+            <guid>Что я хотела бы знать о Докере до того, как начала его использовать</guid>
+            <pubDate>Tue, 31 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Это перевод статьи из блога TWG инженера-программиста Николь Чанг, в которой она рассказывает о своих впечатлениях о Докере, инструменте для разработчиков, позволяющем упаковывать, отправлять и запускать любое приложение в виде самодостаточного контейнера, который работает где угодно — от ноутбука до любого крупного облачного сервиса.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Упаковка npm-модулей, которую мы заслужили]]></title>
+            <link>https://sgromkov.github.io/gromkov.me/blog/2021/02/11/packaging-npm-modules</link>
+            <guid>Упаковка npm-модулей, которую мы заслужили</guid>
+            <pubDate>Thu, 11 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Мысли после просмотра доклада Дениса Красновского «Упаковка npm-модулей, которую мы заслужили».]]></description>
+        </item>
+        <item>
+            <title><![CDATA[HTML: The Good Parts]]></title>
+            <link>https://sgromkov.github.io/gromkov.me/blog/2020/03/22/html-the-good-parts</link>
+            <guid>HTML: The Good Parts</guid>
+            <pubDate>Sun, 22 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[Мысли после просмотра доклада Вадима Макеева «HTML: The Good Parts».]]></description>
+        </item>
+    </channel>
+</rss>
