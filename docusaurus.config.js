@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     title: 'Sergey Gromkov',
     tagline: 'Frontend developer',
     url: 'https://sgromkov.github.io',
-    baseUrl: '/gromkov.me/',
+    baseUrl: '/',
     organizationName: 'sgromkov',
     projectName: 'gromkov.me',
     onBrokenLinks: 'throw',
