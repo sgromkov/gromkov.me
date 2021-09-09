@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[118],{8719:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/docker-container","name":"Docker Container","count":1,"permalink":"/blog/tags/docker-container"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[205],{3714:function(a){a.exports=JSON.parse('{"allTagsPath":"/gromkov.me/blog/tags","slug":"/gromkov.me/blog/tags/translate","name":"translate","count":1,"permalink":"/gromkov.me/blog/tags/translate"}')}}]);
