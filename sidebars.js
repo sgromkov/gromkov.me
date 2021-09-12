@@ -18,7 +18,7 @@ module.exports = {
         },
         {
             type: 'link',
-            label: 'Блог',
+            label: 'Blog',
             href: '/blog',
         }
     ],
