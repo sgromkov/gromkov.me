@@ -36,6 +36,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
+            gtag: {
+                trackingID: 'G-QKETXF1NLY',
+            },
             navbar: {
                 title: 'Sergey Gromkov',
                 logo: {
