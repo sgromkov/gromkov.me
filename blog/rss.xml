@@ -4,9 +4,16 @@
         <title>Sergey Gromkov Blog</title>
         <link>https://gromkov.me/blog</link>
         <description>Sergey Gromkov Blog</description>
-        <lastBuildDate>Wed, 13 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Как бороться с багами без боли и агрессии]]></title>
+            <link>https://gromkov.me/blog/2021/10/14/how-to-deal-with-bugs-without-pain-and-aggression</link>
+            <guid>Как бороться с багами без боли и агрессии</guid>
+            <pubDate>Thu, 14 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Мысли после просмотра доклада Алексея Попкова «Как бороться с багами без боли и агрессии».]]></description>
+        </item>
         <item>
             <title><![CDATA[Ошибки хороших руководителей]]></title>
             <link>https://gromkov.me/blog/2021/10/13/mistakes-of-good-managers</link>
