@@ -4,9 +4,16 @@
         <title>Sergey Gromkov Blog</title>
         <link>https://gromkov.me/blog</link>
         <description>Sergey Gromkov Blog</description>
-        <lastBuildDate>Fri, 26 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[«Чистая архитектура»: про плохую архитектуру]]></title>
+            <link>https://gromkov.me/blog/2021/11/27/clean-architecture-about-bad-architecture</link>
+            <guid>«Чистая архитектура»: про плохую архитектуру</guid>
+            <pubDate>Sat, 27 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Роберт Мартин уверен, что плохая архитектура обязательно приведет проект в тупик: стоимость поддержки одной строки кода будет бесконечно расти, а мотивация программистов падать. В главе «Что такое дизайн и архитектура» он описывает последствия некачественной архитектуры.]]></description>
+        </item>
         <item>
             <title><![CDATA[«Чистая архитектура»: про разницу между работающими и правильными программами]]></title>
             <link>https://gromkov.me/blog/2021/11/26/clean-architecture-about-the-difference-between-working-and-correct-programs</link>

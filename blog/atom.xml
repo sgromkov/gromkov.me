@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gromkov.me/blog</id>
     <title>Sergey Gromkov Blog</title>
-    <updated>2021-11-26T00:00:00.000Z</updated>
+    <updated>2021-11-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gromkov.me/blog"/>
     <subtitle>Sergey Gromkov Blog</subtitle>
     <icon>https://gromkov.me/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[«Чистая архитектура»: про плохую архитектуру]]></title>
+        <id>«Чистая архитектура»: про плохую архитектуру</id>
+        <link href="https://gromkov.me/blog/2021/11/27/clean-architecture-about-bad-architecture"/>
+        <updated>2021-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Роберт Мартин уверен, что плохая архитектура обязательно приведет проект в тупик: стоимость поддержки одной строки кода будет бесконечно расти, а мотивация программистов падать. В главе «Что такое дизайн и архитектура» он описывает последствия некачественной архитектуры.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[«Чистая архитектура»: про разницу между работающими и правильными программами]]></title>
         <id>«Чистая архитектура»: про разницу между работающими и правильными программами</id>
