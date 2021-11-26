@@ -43,7 +43,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 title: 'Sergey Gromkov',
                 logo: {
                     alt: 'Sergey',
-                    src: 'img/logo.png',
+                    src: 'img/logo.jpg',
                 },
                 items: [
                     {
