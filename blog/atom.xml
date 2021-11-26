@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gromkov.me/blog</id>
     <title>Sergey Gromkov Blog</title>
-    <updated>2021-10-15T00:00:00.000Z</updated>
+    <updated>2021-11-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gromkov.me/blog"/>
     <subtitle>Sergey Gromkov Blog</subtitle>
     <icon>https://gromkov.me/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[«Чистая архитектура»: про разницу между работающими и правильными программами]]></title>
+        <id>«Чистая архитектура»: про разницу между работающими и правильными программами</id>
+        <link href="https://gromkov.me/blog/2021/11/26/clean-architecture-about-the-difference-between-working-and-correct-programs"/>
+        <updated>2021-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Книга «Чистая архитектура» начинается с мнения Роберта Мартина о разнице между работающими и правильными программами, и теми преимуществами, которыми обладают вторые.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Меняем стул под пользователем]]></title>
         <id>Меняем стул под пользователем</id>

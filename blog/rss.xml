@@ -4,9 +4,16 @@
         <title>Sergey Gromkov Blog</title>
         <link>https://gromkov.me/blog</link>
         <description>Sergey Gromkov Blog</description>
-        <lastBuildDate>Fri, 15 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[«Чистая архитектура»: про разницу между работающими и правильными программами]]></title>
+            <link>https://gromkov.me/blog/2021/11/26/clean-architecture-about-the-difference-between-working-and-correct-programs</link>
+            <guid>«Чистая архитектура»: про разницу между работающими и правильными программами</guid>
+            <pubDate>Fri, 26 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Книга «Чистая архитектура» начинается с мнения Роберта Мартина о разнице между работающими и правильными программами, и теми преимуществами, которыми обладают вторые.]]></description>
+        </item>
         <item>
             <title><![CDATA[Меняем стул под пользователем]]></title>
             <link>https://gromkov.me/blog/2021/10/15/changing-the-chair-under-the-user</link>
