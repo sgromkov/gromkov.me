@@ -14,6 +14,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     trailingSlash: true,
+    plugins: ['docusaurus-plugin-yandex-metrica'],
     presets: [
         [
             '@docusaurus/preset-classic',
@@ -38,6 +39,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         ({
             gtag: {
                 trackingID: 'G-QKETXF1NLY',
+            },
+            ym: {
+                counterID: '86645179',
             },
             navbar: {
                 title: 'Sergey Gromkov',
