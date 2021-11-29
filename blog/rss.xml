@@ -4,9 +4,16 @@
         <title>Sergey Gromkov Blog</title>
         <link>https://gromkov.me/blog</link>
         <description>Sergey Gromkov Blog</description>
-        <lastBuildDate>Sat, 27 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 29 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[«Чистая архитектура»: про принципы SOLID]]></title>
+            <link>https://gromkov.me/blog/2021/11/29/clean-architecture-about-solid-principles</link>
+            <guid>«Чистая архитектура»: про принципы SOLID</guid>
+            <pubDate>Mon, 29 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Свою «чистую архитектуру» Роберт Мартин строит на принципах SOLID, которые он же и придумал. Эти принципы очень популярны в объектно-ориентированном программировании.]]></description>
+        </item>
         <item>
             <title><![CDATA[«Чистая архитектура»: про плохую архитектуру]]></title>
             <link>https://gromkov.me/blog/2021/11/27/clean-architecture-about-bad-architecture</link>
