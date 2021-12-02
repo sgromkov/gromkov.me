@@ -4,9 +4,16 @@
         <title>Sergey Gromkov Blog</title>
         <link>https://gromkov.me/blog</link>
         <description>Sergey Gromkov Blog</description>
-        <lastBuildDate>Tue, 30 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[«Чистая архитектура»: про три подхода к решению задач]]></title>
+            <link>https://gromkov.me/blog/2021/12/02/clean-architecture-about-about-three-approaches-to-solving-problems</link>
+            <guid>«Чистая архитектура»: про три подхода к решению задач</guid>
+            <pubDate>Thu, 02 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Три шага]]></description>
+        </item>
         <item>
             <title><![CDATA[«Чистая архитектура»: про дублирование кода]]></title>
             <link>https://gromkov.me/blog/2021/11/30/clean-architecture-about-code-duplication</link>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[4927],{5913:function(t){t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/robert-c-martin","name":"Robert C. Martin","count":4,"permalink":"/blog/tags/robert-c-martin"}')}}]);
