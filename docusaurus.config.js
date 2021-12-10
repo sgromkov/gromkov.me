@@ -13,7 +13,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    trailingSlash: true,
     plugins: ['docusaurus-plugin-yandex-metrica'],
     presets: [
         [
@@ -59,6 +58,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                     {
                         to: '/blog',
                         label: 'Blog',
+                        position: 'left'
+                    },
+                    {
+                        to: '/blog/rss.xml',
+                        label: 'RSS',
                         position: 'left'
                     },
                     {
