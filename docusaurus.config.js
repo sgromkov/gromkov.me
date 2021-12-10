@@ -61,7 +61,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                         position: 'left'
                     },
                     {
-                        to: '/blog/rss.xml',
+                        href: 'https://gromkov.me/blog/rss.xml',
                         label: 'RSS',
                         position: 'left'
                     },
