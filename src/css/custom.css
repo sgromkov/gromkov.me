@@ -66,4 +66,5 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .navbar__logo {
     border-radius: 50%;
+    overflow: hidden;
 }
