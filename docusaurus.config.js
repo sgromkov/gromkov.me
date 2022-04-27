@@ -29,6 +29,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
+                gtag: {
+                    trackingID: 'G-QKETXF1NLY',
+                },
             }),
         ],
     ],
@@ -36,9 +39,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
-            gtag: {
-                trackingID: 'G-QKETXF1NLY',
-            },
             ym: {
                 counterID: '86645179',
             },
@@ -58,6 +58,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
                     {
                         to: '/blog',
                         label: 'Blog',
+                        position: 'left'
+                    },
+                    {
+                        href: 'https://gromkov.me/cv.pdf',
+                        label: 'My CV',
                         position: 'left'
                     },
                     {
