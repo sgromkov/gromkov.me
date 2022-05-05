@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[5255],{5228:function(e){e.exports=JSON.parse('{"label":"Docker Compose","permalink":"/blog/tags/docker-compose","allTagsPath":"/blog/tags","count":1}')}}]);

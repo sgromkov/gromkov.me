@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[239],{4558:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"Wepback","count":1,"permalink":"/blog/tags/wepback"}')}}]);

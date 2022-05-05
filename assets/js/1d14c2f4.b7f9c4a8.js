@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[3811],{4198:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"npm","count":1,"permalink":"/blog/tags/npm"}')}}]);

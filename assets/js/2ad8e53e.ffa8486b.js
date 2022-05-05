@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[3329],{7206:function(o){o.exports=JSON.parse('{"label":"books","permalink":"/blog/tags/books","allTagsPath":"/blog/tags","count":5}')}}]);
