@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgromkov_me=self.webpackChunkgromkov_me||[]).push([[6245],{9840:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/yandex-metrika","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
